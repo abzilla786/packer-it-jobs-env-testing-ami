@@ -33,10 +33,10 @@
   }],
 
   "provisioners": [
-        {
-          "type": "chef-solo",
-          "cookbook_paths": ["./berks-cookbooks"],
-          "run_list":["IT-job-watch-cookbook-env::default"]
+    {
+      "type": "chef-solo",
+      "cookbook_paths": ["/users/abdullahayyaz/code"],
+      "run_list":["IT-job-watch-cookbook-env::default"]
     }
   ]
 }
